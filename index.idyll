@@ -1,0 +1,222 @@
+[meta title:"Generacionpostcrisis" description:"Short description of your project" /]
+[div className:'logos']
+[img src:"static/images/logos.png" /]
+[/div]
+
+
+[div className:'title']Generación postcrisis[/div]
+[div className:'subtitle']Falta de oportunidades y falta de seguridad para las nuevas generaciones en el sur de Europa[/div]
+[div className:'authors']Un análisis de [a href:'#porque']@ariamsita[/a] + [a href:'#porque']@jorgegalindo[/a][/div]
+
+
+[div className:'menu'][a href:'#porque']Por qué[/a] [a href:'#trayectorias']Trayectorias[/a] [a href:'#crisis']Nueva crisis[/a] [a href:'#reformas']Reformas[/a][/div]
+[div className:'submenu']## Por qué[/div]
+
+[p]👉 La generación que nació entre 1985 y 1995 está teniendo el dudoso privilegio de ser [b]la única en el último siglo que pasará por dos Grandes Recesiones[/b] durante su periodo de formación e incorporación al mercado laboral.
+[/p]
+### Una crisis no resuelta…
+
+
+[p]💸 La debacle que se abrió en 2008 y enlazó con la crisis de deuda soberana en 2009-2011 tuvo un impacto diferencial 
+entre los países deudores dentro de la zona Euro, localizados en el sur de Europa. 
+[/p]
+
+[p]📈 Sus mercados laborales marcados por la segmentación que existe entre trabajadores estables, 
+con puestos de trabajo relativamente bien protegidos, y aquellos que enfrentan las crisis sin disponer 
+de ese escudo.
+[/p]
+
+[p]🩹 Además, en estos países la red de seguridad del sistema de bienestar protege mejor a los que ya se han 
+insertado en un puesto de trabajo fijo.[/p]
+
+[p]✌️ Hay dos rasgos que determinan la precariedad: la juventud y el nivel de estudios alcanzado. 
+[/p]
+[ul]
+[li]🧒 La incorporación al mercado laboral es más difícil para las nuevas generaciones: la estabilidad tarda en llegar. 
+[/li] 
+[li]👷‍♀️ Aquellas personas con menor formación no cuentan con el capital humano, social y relacional adquirido (o heredado) 
+que agiliza y refuerza la pasarela al corazón del mercado laboral, además de actuar como colchón y palanca de recuperación tras una crisis.
+[/li] 
+[/ul]
+
+### …cuando llegó la segunda
+[p]🦠 La pandemia ha producido un doble [i]shock[/i] de oferta y demanda que, de nuevo, afectará más al sur del continente: 
+[ul]
+[li]⚱️ Vulnerabilidad de partida [/li] 
+[li]🇪🇸 Gravedad del contagio en Italia y España[/li] 
+[li]🏠 Necesarios confinamientos[/li] 
+[li]❓ Incertidumbre aparejada[/li] 
+[li]🏖 Afectación al turismo, refugio habitual de los precarios.[/li] 
+[/ul]
+
+[/p]
+[p]🌉 La situación económica de ‘crisis secular’ ha generado la percepción por parte de algunos sectores de la sociedad de que la pasarela 
+que aseguraba las oportunidades de los más jóvenes para darles seguridad en la vida adulta se está rompiendo.
+[/p]
+[p]🚨 Las generaciones mayores perciben que la seguridad que habían alcanzado se mueve bajo sus pies, los más jóvenes sienten que nunca cruzarán esa pasarela. 
+[/p]
+[p]📢 Y es precisamente en este clima de incertidumbre en el que nuevos populismos pueden encontrar su campo de cultivo.
+[/p]
+[p]📐 Es necesario medir de forma precisa los parámetros bajo la ruptura del pacto social: ¿dónde y cómo se han quebrado las trayectorias de vida?
+[/p]
+
+[div idName:'trayectorias']## Trayectorias[/div]
+
+[var name:"clickIndex" value:0 /]
+[var name:"clickData" value:`[0.5, 0.3, 1.2, 0.4, 5, 4, 2, 0.4]` /]
+
+[Stepper fullWidth:true currentStep:clickIndex]
+  [Graphic
+    onClick:`clickIndex = (clickIndex + 1) % clickData.length`
+    style:`{background: 'white', cursor: 'pointer'}`]
+
+    [Chart
+      type:`"line"`
+      data:`[0, 1].concat(clickData.slice(0, clickIndex))`
+      animate:`{ duration: 500 }` /]
+
+  [/Graphic]
+
+  [Step]## Hey, neat, here's some data![/Step]
+  [Step]## Hey, neat, here's some data! ...   [/Step]
+  [Step]## Hey, neat, here's some data! ...  What's that more data?![/Step]
+  [Step]## Hmm...[/Step]
+  [Step]## Hmm... Too much data.[/Step]
+  [Step]## Stop.[/Step]
+  [Step]## Stop. that.[/Step]
+  [Step]## Stop. that. data[/Step]
+
+[/Stepper]
+
+[div className:'precrisisbox' idName:'crisis']## Escenarios en la nueva crisis[/div]
+
+[var name:"stepperIndex" value:0 /]
+[div className:'crisissuperbox']
+
+[Stepper currentStep:stepperIndex]
+
+  [Step]
+[div className:'crisisbluebox']
+
+### 📉 Escenario virtuoso: reformas y reequilibrio
+[p]La pandemia puede ser una [b]ventana de oportunidad para las reformas necesarias[/b] 
+que reconstruyan la pasarela social, poniendo énfasis en políticas que aseguren 
+las oportunidades de los más jóvenes en su incorporación 
+a la vida adulta y al mercado laboral, así como a la hora de formar una familia. 
+[/p]
+
+[p]Al [b]devolver el centro de gravedad político hacia un pacto entre clases y generaciones[/b], 
+convirtiendo el sistema democrático en sensible no sólo a las percepciones sino particularmente a las necesidades materiales de las nuevas generaciones, 
+el centro de gravedad pluralista sería más fácilmente recuperable, y reformable. 
+Los populismos que se centran en una pretendida inclusión en la toma de decisiones de segmentos excluidos 
+son apenas un sustituto imperfecto de dicha sensibilidad.
+[/p]  
+[/div]
+
+
+[/Step]
+  [Step]
+[div className:'crisisredbox']
+### 📈 Escenario entrópico: consolidación de ruptura
+[p]La crisis actual puede acabar de romper la pasarela de oportunidades para las 
+nuevas generaciones. Así, [b]en ausencia de reformas, las características estructurales de los países del sur continuarán agrandando 
+la brecha generacional[/b], desprotegiendo a precarios ante nuevos riesgos sociales, y ofreciendo una protección insuficiente a los colectivos 
+más vulnerables, también de las nuevas generaciones.
+[/p]
+[p]Políticamente, este escenario podría llevar a una fragmentación aún mayor del escenario político.
+Como ya se ha comprobado en España e Italia, las reformas se vuelven menos probables a medida que 
+se fragmenta y polariza la dinámica política, sumada al aumento de la preponderancia de argumentos de 
+corte totalizador y populista (“lo queremos todo” como eslogan irrenunciable).
+[/p]
+[/div]
+
+  [/Step]
+
+  [StepperControl /]
+[/Stepper]
+
+
+
+[/div]
+
+
+[var name:"state" value:0 /]
+
+[Scroller currentStep:state]
+  [Graphic ]
+
+[div idName:'reformas' className:'reformas']## Cuatro principios para la reforma[/div]
+
+
+
+  [/Graphic]
+
+  [Step]
+
+
+  #### 1. Un estado del bienestar orientado a igualar oportunidades. 
+
+
+[/Step]
+
+  [Step]
+
+
+[p ]Según las valoraciones de la OCDE, los países del sur de Europa están caracterizados por un sistema de protección social que calca la dualidad de su mercado laboral, concentrando las transferencias sociales entre aquellas personas que más contribuyen al sistema. Además, al contrario que en otros países europeos, este sistema basado en contribuciones no es complementado por una red de seguridad que proteja a los más vulnerables. Es fundamental, por lo tanto, adecuar el gasto público para redirigirlo hacia los colectivos que más lo necesitan. Sin estos mecanismos de reequilibrio de rentas la desigualdad de oportunidades seguirá reproduciéndose generación tras generación.
+[/p]
+
+
+[/Step]
+
+
+  [Step]
+
+
+  #### 2. Un mercado laboral no dualizado, flexiseguro y creador de capital humano.
+
+
+[/Step]
+
+  [Step]
+
+[p]En el sur de Europa, la diferencia de protección entre trabajadores en situación laboral estable y aquellos que no disfrutan de ella sigue siendo considerable, a pesar de las reformas laborales (parciales) que se produjeron durante la Gran Recesión. El objetivo de aquellas (reducción parcial de los costes de despido en los contratos indefinidos) no tiene sino impactos en el margen salvo que se consolide una igualación de costes para cualquier modalidad contractual, acompañando dicho proceso de una red de protección centrada en proporcionar seguridad a los trabajadores para que puedan ampliar su capital humano.
+[/p]
+[/Step]
+
+  [Step]
+
+
+  #### 3. Garantizar la posibilidad de formar una familia.
+
+
+
+[/Step]
+
+  [Step]
+
+[p]Otra de las características estructurales de los estados del bienestar del sur es el hecho de que las tareas de cuidado recaigan en gran medida sobre las familias. Esta característica, que dificulta la compatibilización de vida laboral y familiar, tiene dos consecuencias negativas. Por una parte, muchas mujeres posponen e incluso renuncian a la decisión de ser madre, impactando negativamente la tasa de fertilidad de estos países. Por otra, la dificultad de compaginar vida laboral y familiar lleva a tasas de empleo femenino especialmente bajas en estos países, algo que disminuye las posibles contribuciones sociales de este sector de la población. En este contexto, es crucial llevar a cabo reformas como las que se han realizado en otros países europeos, que aseguren una adecuada provisión de servicios de conciliación a las familias. 
+[/p]
+
+  [/Step]
+
+  [Step]
+
+
+  #### 4. Un sistema de protección social sostenible.
+
+
+[/Step]
+
+  [Step]
+
+
+
+[p]Los retos demográficos, junto con la realidad laboral de los países del sur, suponen un reto a la hora de financiar los sistemas de protección social en estos países. Por este motivo, resulta crucial avanzar hacia sistemas de pensiones sostenibles, que tengan en cuenta el envejecimiento de la población,así como la capacidad de los contribuyentes de financiarlos.
+[/p]
+
+  [/Step]
+[/Scroller]
+
+
+[div className:'footer']© EsadeEcPol & Friedrich Naumann Stiftung, 2020[/div]
+
